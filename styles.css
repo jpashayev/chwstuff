@@ -62,25 +62,37 @@ section.qr-code-section {
 }
 
 img.qr-code-section-image{
-	width: 155px;
+	width: 135px;
+	height: 200px;
 	border-radius: 20px;
 	border: 2px solid #22B;
 	padding: 10px;
 	box-shadow: 0px 0px 5px 5px #004;
 }
 
-.crane {
-	height: 250px;
-}
-
 img.qr-code-section-image.qrcode {
-	width: 250px;
+	width: 175px;
+	height: 175px;
 	border-radius: 20px;
 }
 
 .img-description {
 	box-shadow: 0px 0px 5px 5px #066;
 	padding: 5px;
+	text-align: center;
+}
+
+.qr-code-desc {
+	text-align: center;
+}
+
+.qr-code-desc h3{
+	margin-bottom: -10px;
+}
+
+.activity-description{
+	padding: 3px;
+	font-family: Tahoma, sans-serif;
 }
 
 /* Image Section ################################################################################## */
@@ -94,12 +106,13 @@ section.image-section {
 }
 
 img.image-section{
-	width: 160px;
-	height: 250px;
+	width: 130px;
+	height: 240px;
 	border-radius: 20px;
 	border: 2px solid #11A;
 	padding: 7px;
 	box-shadow: 0px 0px 3px 5px #004;
+	object-fit: fill;
 }
 
 /* Footer ################################################################################## */
@@ -109,43 +122,29 @@ section.footer{
 	padding: 10px 0;
 	width: 100%;
 	height: 10%;
-	flex-direction: column;
-	justify-content: space-between;
+	flex-direction: row;
+	justify-content: space-around;
 	box-shadow: 0px 0px 3px 5px #004;
 }
 
 .footer-note {
-	padding-top: 5px;
-	height: 20%;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
 	color: #080;
-}
-
-.discord-links {
-	color: #080;
-	width: 100%;
-	height: 60%;
-	justify-content: space-evenly;
-	border-bottom: none;
-}
-
-.vertical-line {
-	width: 0px;
-	height: 80%;
-	border: solid #800;
+	text-align: center;
 }
 
 .discord {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	color: #080;
 }
 
-.discord h3 {
-	color: #0F0;
+.android-note {
+	color: #080;
 }
 
-.android-note {
-	height: 10%;
-	color: #080;
+.discord-qr-code {
+	width: 77px;
 }

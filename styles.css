@@ -1,0 +1,151 @@
+* {
+	color: #fff;
+	margin: 0;
+	background: #024; 
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+body {
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+section {
+	/* border: 2px solid #480; */
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+/* ################################################################################## */
+
+section.header {
+	position: relative;
+	width: 100%;
+	height: 15%;
+	flex-direction: column;
+	background: rgba(255, 255, 255, 1);
+}
+
+
+.title {
+	color: #000;
+	position: absolute;
+	padding: 3px;
+	background: rgba(255, 255, 255, 0.77);
+}
+.secondary-title {
+	color: #000;
+	position: absolute;
+	transform: translate(0%, 99%);
+	padding: 3px;
+	background: rgba(255, 255, 255, 0.77);
+}
+
+img.banner-image{
+	width: 100%;
+	height: 100%;
+}
+
+/* ################################################################################## */
+
+section.qr-code-section {
+	width: 100%;
+	height: 45%;
+	justify-content: space-evenly;
+	margin-top: -30px;
+}
+
+img.qr-code-section-image{
+	width: 155px;
+	border-radius: 20px;
+	border: 2px solid #22B;
+	padding: 10px;
+	box-shadow: 0px 0px 5px 5px #004;
+}
+
+.crane {
+	height: 250px;
+}
+
+img.qr-code-section-image.qrcode {
+	width: 250px;
+	border-radius: 20px;
+}
+
+.img-description {
+	box-shadow: 0px 0px 5px 5px #066;
+	padding: 5px;
+}
+
+/* Image Section ################################################################################## */
+
+section.image-section {
+	width: 100%;
+	height: 30%;
+	justify-content: space-evenly;
+	margin-top: -20px;
+	border-bottom: none;
+}
+
+img.image-section{
+	width: 160px;
+	height: 250px;
+	border-radius: 20px;
+	border: 2px solid #11A;
+	padding: 7px;
+	box-shadow: 0px 0px 3px 5px #004;
+}
+
+/* Footer ################################################################################## */
+
+section.footer{
+	margin-top: 10px;
+	padding: 10px 0;
+	width: 100%;
+	height: 10%;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0px 0px 3px 5px #004;
+}
+
+.footer-note {
+	padding-top: 5px;
+	height: 20%;
+	color: #080;
+}
+
+.discord-links {
+	color: #080;
+	width: 100%;
+	height: 60%;
+	justify-content: space-evenly;
+	border-bottom: none;
+}
+
+.vertical-line {
+	width: 0px;
+	height: 80%;
+	border: solid #800;
+}
+
+.discord {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #080;
+}
+
+.discord h3 {
+	color: #0F0;
+}
+
+.android-note {
+	height: 10%;
+	color: #080;
+}
